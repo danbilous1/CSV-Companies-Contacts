@@ -1,7 +1,7 @@
 const link = document.querySelector(".link");
 
 // Enter Your Gemini 2.0 Api Key
-const apiKey = "";
+const apiKey = "AIzaSyBwoiF-DUPqk767Kn4Pn0JJRic1YTTrQxk";
 
 const aiLink = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 const button = document.querySelector(".get-info");
